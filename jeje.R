@@ -21,7 +21,7 @@ result = n*sumR;
 print(A);
 print(result);
 
-if(result < qchisq(p=.95, df=(r-1)*(s-1) )){
+if(result < qchisq(p=.95, df=(r-1))){
 print("Az érték megfelelő");
 }else
 {
